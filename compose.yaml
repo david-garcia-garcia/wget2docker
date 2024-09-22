@@ -1,0 +1,9 @@
+services:
+  wget2:
+    image: davidbcn86/wget2:v2.1.0
+    container_name: wget2_210
+    entrypoint: tail -f /dev/null
+    build:
+      context: .
+      dockerfile: dockerfile
+      
